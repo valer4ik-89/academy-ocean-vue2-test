@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ol, ul {
+  list-style: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+:root {
+  --primary-color: #3eaf7c;
+  --grey-color: #a1a1a1;
+  --light-grey-color: #eaecef;
+  --text-grey: #c0c0c0;
+}
