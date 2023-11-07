@@ -29,6 +29,12 @@ const routes = [
     meta: {layout: 'main', auth: true},
     component: () => import('@/views/CourseStatisticsTable.vue'),
   },
+  {
+    path: '/*',
+    name: 'page-404',
+    meta: {layout: 'empty'},
+    component: () => import('@/views/Page404.vue'),
+    }
 ]
 
 const router = new VueRouter({
